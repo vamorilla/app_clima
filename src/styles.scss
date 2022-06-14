@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+@import 'variables';
+
+html, body, div, input{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: $body-color;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: $grey;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 50%;
+}
+
+/*clases utility*/
+
+.width-33{
+    width: 33.33%;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my-auto{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.px-auto{
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.py-auto{
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+@media (max-width: 900px){
+    .container{
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
